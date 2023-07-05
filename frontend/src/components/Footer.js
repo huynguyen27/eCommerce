@@ -11,23 +11,23 @@ const Footer = () => {
         <div className="row">
           <div className="col-sm-4 text-white">
             <ul className="list-unstyled">
-              <li className="py-1">
-                <Link className="text-decoration-none text-reset" to="/">HOME</Link>             
+              <li className="py-2">
+                <Link id="quickLinks" to="/">HOME</Link>             
               </li>
-              <li className="py-1">
-                <Link className="text-decoration-none text-reset" to="/product">PRODUCT</Link>             
+              <li className="py-2">
+                <Link id="quickLinks" to="/product">PRODUCT</Link>             
               </li>
-              <li className="py-1">
-                <Link className="text-decoration-none text-reset" to="/about">ABOUT US</Link>             
+              <li className="py-2">
+                <Link id="quickLinks"  to="/about">ABOUT US</Link>             
               </li>
-              <li className="py-1">
-                <Link className="text-decoration-none text-reset" to="/contact">CONTACT US</Link>             
+              <li className="py-2">
+                <Link id="quickLinks"  to="/contact">CONTACT US</Link>             
               </li>
             </ul>
           </div>
           <div className = "col-sm-4 text-white">
             <ul className="list-unstyled">
-            <li className="py-1">
+            <li id="label" className="py-1">
               PAYMENT METHODS              
               </li>
               <li className="py-2">
@@ -38,12 +38,12 @@ const Footer = () => {
           </div>
           <div className = 'col-sm-4 text-white'>
             <ul className="list-unstyled">
-              <li className="py-1 text-center">
+              <li id="label" className="py-1 text-center">
                 SUBSCRIBE TO OUR NEWSLETTER
               </li>
-              <li className="py-3">
+              <li className="py-3 text-center">
               <div className="form-outline form-white">
-                  <input type="text" id="formWhite" className="form-control form-outline text-white bg-dark" placeholder="Enter your email address and ENTER" aria-label="Your Email Address" aria-describedby="basic-addon2" />
+                  <input type="text" id="formWhite" className="rounded-0 form-control form-outline text-white bg-dark" placeholder="Enter your email address and ENTER" aria-label="Your Email Address" aria-describedby="basic-addon2" />
                 </div>
               </li>
             </ul>
