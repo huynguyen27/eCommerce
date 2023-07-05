@@ -9,8 +9,7 @@ import LoginRegister from './components/LoginRegister';
 import Product from './components/Product';
 import ShoppingCart from './components/ShoppingCart';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-
+import "./App.css"
 const App = () => {
   return (
     <BrowserRouter>
