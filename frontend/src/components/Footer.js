@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return(
     <>
-    <footer className="pt-4 pb-2 bg-dark">
+    <footer id="general_footer" className="pt-4 pb-2 bg-dark">
       <div className="container-xxl">
         <div className="row">
           <div className="col-sm-4 text-white">
@@ -38,12 +38,12 @@ const Footer = () => {
           </div>
           <div className = 'col-sm-4 text-white'>
             <ul className="list-unstyled">
-              <li id="label" className="py-1 text-center">
-                SUBSCRIBE TO OUR NEWSLETTER
+              <li id="label" className="py-1">
+                NEWSLETTER SIGNUP
               </li>
               <li className="py-3 text-center">
               <div className="form-outline form-white">
-                  <input type="text" id="formWhite" className="rounded-0 form-control form-outline text-white bg-dark" placeholder="Enter your email address and ENTER" aria-label="Your Email Address" aria-describedby="basic-addon2" />
+                  <input type="text" id="formWhite" className="rounded-0 form-control form-outline text-white bg-dark" placeholder="SIGN UP FOR EMAILS" aria-label="Your Email Address" aria-describedby="basic-addon2" />
                 </div>
               </li>
             </ul>
