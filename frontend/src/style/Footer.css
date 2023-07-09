@@ -62,15 +62,19 @@ body{
   
 }
 
+#general_footer{
+  border-bottom: 0.01mm outset rgba(100, 100, 100, 0.711);
+
+}
+
 #quickLinks{
   text-decoration: none;
   color:white;
   font-size:medium; 
 }
 #quickLinks:hover{
-  color: rgb(0, 255, 255);
+  text-decoration: underline;
   font-weight: bold;
-  border-bottom: 1mm ridge rgb(0, 255, 255);
 }
 
 #label{
