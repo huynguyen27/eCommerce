@@ -10,9 +10,13 @@
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
     "express": "~4.16.1",
+    "handlebars": "^4.7.7",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.3.2",
     "morgan": "~1.9.1"
   },
   "description": "The backend api service",
@@ -25,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eCommerce-Group-Project/api.git"
+    "url": "git+https://github.com/huynguyen27/eCommerce.git"
   },
   "keywords": [
     "api",
@@ -34,7 +38,7 @@
   "author": "huytunguyenn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eCommerce-Group-Project/api/issues"
+    "url": "https://github.com/huynguyen27/eCommerce/issues"
   },
-  "homepage": "https://github.com/eCommerce-Group-Project/api#readme"
+  "homepage": "https://github.com/huynguyen27/eCommerce#readme"
 }
