@@ -128,7 +128,7 @@ const Footer = () => {
                         onChange={handleEmailInputChange}
                       />
                     </div>
-                    {submission && !isValidEmail && <p className="error-message">Please enter a valid email address.</p>}
+                    {submission && !isValidEmail && <p className="error-message pt-3">INVALID EMAIL ADDRESS</p>}
 
                   </form>
 

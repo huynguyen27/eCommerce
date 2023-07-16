@@ -64,6 +64,15 @@ const Header = () => {
                       <li><NavLink to="/" className="custom-nav-link">Website design</NavLink></li>
                     </ul>
                   </div>
+                  <div className="row">
+                    <NavLink to="/" className="custom-nav-link"><h6>Security services</h6></NavLink>
+                    <ul className="mega-links">
+                      <li><NavLink to="/" className="custom-nav-link">Site Seal</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">VPS Hosting</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Privacy Seal</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Website design</NavLink></li>
+                    </ul>
+                  </div>
 
                 </div>
               </div>
