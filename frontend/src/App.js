@@ -26,6 +26,7 @@ const App = () => {
           <Route path="/shoppingcart" element={<ShoppingCart />} />
         </Routes>
       </main>
+
       <Footer />
     </BrowserRouter>
   );
