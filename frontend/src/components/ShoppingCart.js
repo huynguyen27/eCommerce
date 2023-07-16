@@ -4,7 +4,7 @@ const ShoppingCart = () => {
   return (
     <div>
       <h2>ShoppingCart</h2>
-      <p>This is the LoginRegister page.</p>
+      <p>This is the ShoppingCart page.</p>
     </div>
   );
 };
