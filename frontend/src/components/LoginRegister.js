@@ -39,7 +39,7 @@ const LoginRegister = () => {
                 onChange={(e) => setEmailLogin(e.target.value)}
                 className="rounded-0 form-control form-outline text-white bg-dark"
                 id="username"
-                placeholder='EMAIL ADDRESS*' />
+                placeholder='EMAIL ADDRESS*' autocomplete="off"/>
             </div>
             <div className="form-group pb-3">
               <input
@@ -65,8 +65,10 @@ const LoginRegister = () => {
           </form>
         </div>
         <div className="col-md-6 py-5">
+
           <h2 id="register_label" className="text-center">REGISTER</h2>
           <form onSubmit={handleRegister}>
+
             <div className="form-group pb-3">
               <input
                 type="text"
