@@ -1,0 +1,119 @@
+#username::placeholder {
+    color: grey;
+    opacity: 75%;
+  }
+
+
+
+#forgot_password{
+    text-decoration:none;
+    color: grey;
+}
+#forgot_password:hover{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+#password::placeholder {
+    color: grey;
+    opacity: 75%;
+    
+  }
+
+#remember_password{
+    background-color: black;
+    
+}
+
+#login_label{
+    font-size:7vh;
+    font-weight: bold;
+    padding-bottom: 5vh;
+}
+
+#register_label{
+    font-size:7vh;
+    font-weight: bold;
+    padding-bottom: 5vh;
+}
+
+#register_username{
+    border-color: black;
+}
+
+#register_email{
+    border-color: black;
+}
+
+
+#register_password{
+    border-color: black;
+}
+
+#register_confirmPassword{
+    border-color: black;
+}
+
+#register_username::placeholder{
+    color:grey;
+    opacity: 75%;
+}
+
+#register_email::placeholder{
+    color:grey;
+    opacity: 75%;
+}
+
+
+#register_password::placeholder{
+    color:grey;
+    opacity: 75%;
+}
+
+#register_confirmPassword::placeholder{
+    color:grey;
+    opacity: 75%;
+}
+
+#register_button{
+    text-decoration: none;
+    font-size:3vh;
+    color: black;
+    border-style:solid;
+    border-color: black;
+    padding-right: 2vh;
+    padding-left: 2vh;
+}
+#submit_button{
+    text-decoration: none;
+    font-size:3vh;
+    color: white;
+    border-style:solid;
+    border-color: white;
+    padding-right: 2vh;
+    padding-left: 2vh;
+}
+
+#submit_button:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+
+    font-weight: bold;
+}
+
+
+
+#register_button:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+
+    font-weight: bold;
+}
+
+
+#loginregister{
+    border-bottom: 0.01mm outset rgba(100, 100, 100, 0.711);
+}
+
