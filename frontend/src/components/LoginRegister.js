@@ -8,7 +8,7 @@ const LoginRegister = () => {
           <h2 id="login_label" className="text-center">LOGIN</h2>
           <form>
             <div className="form-group pb-3">
-              <input type="text" className="rounded-0 form-control form-outline text-white bg-dark" id="username" placeholder='EMAIL ADDRESS*' />
+              <input type="text" className="rounded-0 form-control form-outline text-white bg-dark" id="username" placeholder='EMAIL ADDRESS*' autocomplete="off" />
             </div>
             <div className="form-group pb-3">
               <input type="password" className="rounded-0 form-control form-outline text-white bg-dark" id="password" placeholder='PASSWORD*'/>
@@ -28,7 +28,7 @@ const LoginRegister = () => {
           </form>
         </div>
         <div className="col-md-6 py-5">
-          <h2 id="register_label" className="text-center">REGISTER</h2>
+          <h2 id="register_label" className="text-center">CREATE AN ACCOUNT</h2>
           <form>
             <div className="form-group pb-3">
               <input type="text" className="rounded-0 form-control form-outline" id="register_username" placeholder="FIRST NAME*"/>

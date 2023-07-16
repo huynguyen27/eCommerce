@@ -1,7 +1,15 @@
 #username::placeholder {
     color: grey;
-    opacity: 75%;
+    opacity: 70%;
   }
+
+
+#username{
+    border-color: rgb(196, 183, 183);
+}
+#username:hover{
+    border-color: white;
+}
 
 
 
@@ -14,11 +22,19 @@
     text-decoration: underline;
     font-weight: bold;
   }
+
+#password{
+    border-color: rgb(196, 183, 183);
+}
 #password::placeholder {
     color: grey;
     opacity: 75%;
     
   }
+
+#password:hover{
+    border-color: white;
+}
 
 #remember_password{
     background-color: black;
@@ -37,20 +53,20 @@
     padding-bottom: 5vh;
 }
 
-#register_username{
+#register_username:hover{
     border-color: black;
 }
 
-#register_email{
+#register_email:hover{
     border-color: black;
 }
 
 
-#register_password{
+#register_password:hover{
     border-color: black;
 }
 
-#register_confirmPassword{
+#register_confirmPassword:hover{
     border-color: black;
 }
 

@@ -2,35 +2,9 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
+    <div className="container-fluid">
       <h2>Home</h2>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-      <p>This is the Home page.</p>
-
+      
     </div>
   );
 };
