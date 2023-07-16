@@ -79,7 +79,7 @@ const Footer = () => {
       </NewsletterSubmission>
 
 
-      <footer id="general_footer" className="pt-4 pb-2 bg-dark">
+      <footer id="general_footer" className="pt-4 pb-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-sm-4 text-white">
@@ -120,7 +120,7 @@ const Footer = () => {
                       <input
                         type="text"
                         id="formWhite"
-                        className="rounded-0 form-control form-outline text-white bg-dark"
+                        className="rounded-0 form-control form-outline text-white"
                         placeholder="SIGN UP FOR EMAILS"
                         aria-label="Your Email Address"
                         aria-describedby="basic-addon2"
@@ -128,7 +128,7 @@ const Footer = () => {
                         onChange={handleEmailInputChange}
                       />
                     </div>
-                    {submission && !isValidEmail && <p className="error-message pt-3">INVALID EMAIL ADDRESS</p>}
+                    {submission && !isValidEmail && <p className="error-message pt-3" style={{"color": "red"}}>INVALID EMAIL ADDRESS</p>}
 
                   </form>
 
@@ -139,9 +139,9 @@ const Footer = () => {
           </div>
 
         </div>
+        <div id="copyright_footer" className="py-4 text-white text-center"> Copyright © 2023 THTrue Milk. All Rights Reserved </div>
 
       </footer >
-      <div className="bg-dark py-4 border-top border-secondary text-white text-center"> Copyright © 2023 THTrue Milk. All Rights Reserved </div>
     </>
 
 

@@ -1,11 +1,12 @@
 #username::placeholder {
     color: grey;
-    opacity: 70%;
   }
 
 
 #username{
     border-color: rgb(196, 183, 183);
+    background-color: black;
+    color: white;
 }
 #username:hover{
     border-color: white;
@@ -25,10 +26,11 @@
 
 #password{
     border-color: rgb(196, 183, 183);
+    background-color: black;
+    color: white;
 }
 #password::placeholder {
     color: grey;
-    opacity: 75%;
     
   }
 
@@ -40,7 +42,11 @@
     background-color: black;
     
 }
+#login{
+    background-color: black;
+    border-top: 0.01mm outset rgba(100, 100, 100, 0.711);
 
+}
 #login_label{
     font-size:7vh;
     font-weight: bold;
@@ -131,5 +137,6 @@
 
 #loginregister{
     border-bottom: 0.01mm outset rgba(100, 100, 100, 0.711);
+    /* margin-top:70px; */
 }
 

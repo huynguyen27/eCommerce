@@ -29,7 +29,7 @@ const LoginRegister = () => {
   return (
     <div id="loginregister" className="container-fluid">
       <div className="row">
-        <div className="col-md-6 py-5 bg-dark text-white">
+        <div id="login" className="col-md-6 py-5 text-white">
           <h2 id="login_label" className="text-center">LOGIN</h2>
           <form onSubmit={handleLogin}>
             <div className="form-group pb-3">
@@ -37,7 +37,7 @@ const LoginRegister = () => {
                 type="text"
                 value={emailLogin}
                 onChange={(e) => setEmailLogin(e.target.value)}
-                className="rounded-0 form-control form-outline text-white bg-dark"
+                className="rounded-0 form-control form-outline text-white"
                 id="username"
                 placeholder='EMAIL ADDRESS*' autocomplete="off"/>
             </div>
@@ -46,7 +46,7 @@ const LoginRegister = () => {
                 type="password"
                 value={passwordLogin}
                 onChange={(e) => setPasswordLogin(e.target.value)}
-                className="rounded-0 form-control form-outline text-white bg-dark"
+                className="rounded-0 form-control form-outline text-white"
                 id="password"
                 placeholder='PASSWORD*' />
             </div>
