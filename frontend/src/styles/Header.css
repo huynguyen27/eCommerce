@@ -1,27 +1,24 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 nav {
   position: fixed;
-  overflow: hidden;
+  /* overflow: hidden; */
   top: 0;
-  /* margin-bottom:100px; */
-  /* z-index: 99; ; */
+  z-index: 99; 
   width: 100%;
-  background: rgb(0, 0, 0);
+  background: black;
 }
 
 nav .wrapper {
   position: relative;
   max-width: 100%;
   padding: 0px 30px;
-  height: 70px;
-  line-height: 70px;
+  height: 55px;
+  line-height: 55px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -29,15 +26,18 @@ nav .wrapper {
 
 .wrapper .logo .custom-nav-link {
   color: white;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-
 }
 
 .wrapper .nav-links {
   display: inline-flex;
+  width: calc(100% - 240px);
+  margin: 0;
+  padding: 0;
+
 }
 
 .nav-links li {
@@ -49,8 +49,8 @@ nav .wrapper {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: 500;
-  padding: 8px 16px;
+  font-weight: 600;
+  padding: 17px 15px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -96,40 +96,39 @@ nav .wrapper {
 }
 
 .mega-box .content .row {
-  width: calc(25% - 30px);
-  line-height: 48px;
-
-}
-
-.content .row .custom-nav-link {
-  margin: 0;
-  padding: 12px;
+  width: calc(50% - 30px);
 }
 
 .content .row h6 {
-
-  color: grey;
-  font-size: 20px;
-  font-weight: 500;
   margin: 0;
+  padding: 7px 11px;
+}
+
+.content .row .custom-nav-link {
+  padding: 0;
+  display: inline-block;
+  color: grey;
+  font-weight: 600;
+  display: inline-block;
 }
 
 .content .row .mega-links {
   margin-left: -40px;
-  border-left: 1px solid rgba(255, 255, 255, 0.09);
 }
 
 .row .mega-links li {
-  padding: 0 20px;
+  padding: 5px 20px;
+  line-height: 24px;
 
 }
 
 .row .mega-links li .custom-nav-link {
   padding: 0px;
-  padding: 0 20px;
+  margin: 0 20px;
   color: lightgrey;
-  font-size: 17px;
-  display: block;
+  font-size: 14px;
+  font-weight: 500;
+
 }
 
 .row .mega-links li .custom-nav-link:hover {

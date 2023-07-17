@@ -59,7 +59,7 @@
     padding-bottom: 5vh;
 }
 
-#register_username:hover{
+#register_firstname, #register_lastname:hover{
     border-color: black;
 }
 
@@ -76,7 +76,7 @@
     border-color: black;
 }
 
-#register_username::placeholder{
+#register_firstname, #register_lastname::placeholder{
     color:grey;
     opacity: 75%;
 }
@@ -137,6 +137,5 @@
 
 #loginregister{
     border-bottom: 0.01mm outset rgba(100, 100, 100, 0.711);
-    /* margin-top:70px; */
 }
 

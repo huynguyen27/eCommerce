@@ -25,6 +25,7 @@ const Header = () => {
       <nav>
         <div className="wrapper">
           <div className="logo"><NavLink to="/" className="custom-nav-link">Online Store</NavLink></div>
+          
           <input type="radio" name="slider" id="menu-btn" />
           <input type="radio" name="slider" id="close-btn" />
           <ul className="nav-links">
@@ -36,9 +37,8 @@ const Header = () => {
               <label htmlFor="showMega" className="mobile-item">Product</label>
               <div className="mega-box">
                 <div className="content">
-
-                  <div className="row">
-                    <NavLink to="/" className="custom-nav-link"><h6>Design Services</h6></NavLink>
+                  <div className="row first-row">
+                  <h6><NavLink to="/" className="custom-nav-link">Design Services</NavLink></h6>
                     <ul className="mega-links">
                       <li><NavLink to="/" className="custom-nav-link">Graphics</NavLink></li>
                       <li><NavLink to="/" className="custom-nav-link">Vectors</NavLink></li>
@@ -46,74 +46,45 @@ const Header = () => {
                       <li><NavLink to="/" className="custom-nav-link">Custom logo</NavLink></li>
                     </ul>
                   </div>
+
                   <div className="row">
-                    <NavLink to="/" className="custom-nav-link"><h6>Email Services</h6></NavLink>
+                  <h6><NavLink to="/" className="custom-nav-link">Design Services</NavLink></h6>
                     <ul className="mega-links">
-                      <li><NavLink to="/" className="custom-nav-link">Personal Email</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Business Email</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Mobile Email</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Web Marketing</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Graphics</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Vectors</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Business cards</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Custom logo</NavLink></li>
                     </ul>
-                  </div>
-                  <div className="row">
-                    <NavLink to="/" className="custom-nav-link"><h6>Security services</h6></NavLink>
-                    <ul className="mega-links">
-                      <li><NavLink to="/" className="custom-nav-link">Site Seal</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">VPS Hosting</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Privacy Seal</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Website design</NavLink></li>
-                    </ul>
-                  </div>
-                  <div className="row">
-                    <NavLink to="/" className="custom-nav-link"><h6>Security services</h6></NavLink>
-                    <ul className="mega-links">
-                      <li><NavLink to="/" className="custom-nav-link">Site Seal</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">VPS Hosting</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Privacy Seal</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Website design</NavLink></li>
-                    </ul>
+
                   </div>
 
+                  <div className="row">
+                  <h6><NavLink to="/" className="custom-nav-link">Design Services</NavLink></h6>
+                    <ul className="mega-links">
+                      <li><NavLink to="/" className="custom-nav-link">Graphics</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Vectors</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Business cards</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Custom logo</NavLink></li>
+                    </ul>
+
+                  </div>
+                  <div className="row">
+                  <h6><NavLink to="/" className="custom-nav-link">Design Services</NavLink></h6>
+                    <ul className="mega-links">
+                      <li><NavLink to="/" className="custom-nav-link">Graphics</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Vectors</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Business cards</NavLink></li>
+                      <li><NavLink to="/" className="custom-nav-link">Custom logo</NavLink></li>
+                    </ul>
+                  </div>
+                  
                 </div>
+                
               </div>
             </li>
             <li>
               <NavLink to="/brand" className="custom-nav-link desktop-item">Brand</NavLink>
-              <input type="checkbox" id="showMega" />
-              <label htmlFor="showMega" className="mobile-item">Brand</label>
-              <div className="mega-box">
-                <div className="content">
-
-                  <div className="row">
-                    <NavLink to="/" className="custom-nav-link"><h6>Design Services</h6></NavLink>
-                    <ul className="mega-links">
-                      <li><NavLink to="/" className="custom-nav-link">Graphics</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Vectors</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Business cards</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Custom logo</NavLink></li>
-                    </ul>
-                  </div>
-                  <div className="row">
-                    <NavLink to="/" className="custom-nav-link"><h6>Email Services</h6></NavLink>
-                    <ul className="mega-links">
-                      <li><NavLink to="/" className="custom-nav-link">Personal Email</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Business Email</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Mobile Email</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Web Marketing</NavLink></li>
-                    </ul>
-                  </div>
-                  <div className="row">
-                    <NavLink to="/" className="custom-nav-link"><h6>Security services</h6></NavLink>
-                    <ul className="mega-links">
-                      <li><NavLink to="/" className="custom-nav-link">Site Seal</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">VPS Hosting</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Privacy Seal</NavLink></li>
-                      <li><NavLink to="/" className="custom-nav-link">Website design</NavLink></li>
-                    </ul>
-                  </div>
-
-                </div>
-              </div>
+              
             </li>
             <li><NavLink to="/contact" className="custom-nav-link">Contact</NavLink></li>
             <li><NavLink to="/loginregister" className="custom-nav-link">Account</NavLink></li>

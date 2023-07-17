@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../style/LoginRegister.css"
+import "../styles/LoginRegister.css"
 
 const LoginRegister = () => {
   const [emailLogin, setEmailLogin] = useState('');
@@ -39,7 +39,7 @@ const LoginRegister = () => {
                 onChange={(e) => setEmailLogin(e.target.value)}
                 className="rounded-0 form-control form-outline text-white"
                 id="username"
-                placeholder='EMAIL ADDRESS*' autocomplete="off"/>
+                placeholder='EMAIL ADDRESS*' autoComplete="off" />
             </div>
             <div className="form-group pb-3">
               <input
@@ -68,14 +68,13 @@ const LoginRegister = () => {
 
           <h2 id="register_label" className="text-center">REGISTER</h2>
           <form onSubmit={handleRegister}>
-
             <div className="form-group pb-3">
               <input
                 type="text"
                 value={firstNameRegister}
                 onChange={(e) => setFirstNameRegister(e.target.value)}
                 className="rounded-0 form-control form-outline"
-                id="register_username"
+                id="register_firstname"
                 placeholder="FIRST NAME*" />
             </div>
             <div className="form-group pb-3">
@@ -84,7 +83,7 @@ const LoginRegister = () => {
                 value={lastNameRegister}
                 onChange={(e) => setLastNameRegister(e.target.value)}
                 className="rounded-0 form-control form-outline"
-                id="register_username"
+                id="register_lastname"
                 placeholder="LAST NAME*" />
             </div>
             <div className="form-group pb-3">
@@ -116,7 +115,8 @@ const LoginRegister = () => {
             </div>
             <div className="text-center py-5">
               <a id="register_button" href="/" >REGISTER</a>
-            </div>          </form>
+            </div>
+          </form>
         </div>
       </div>
     </div>
