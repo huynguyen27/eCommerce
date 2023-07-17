@@ -8,10 +8,7 @@
 
 nav {
   position: fixed;
-  overflow: hidden;
-  top: 0;
-  /* margin-bottom:100px; */
-  /* z-index: 99; ; */
+  top:0;
   width: 100%;
   background: rgb(0, 0, 0);
 }
@@ -56,6 +53,7 @@ nav .wrapper {
 
 .nav-links li .custom-nav-link:hover {
   color: white;
+  
   /* background: #1d1d1d; */
 }
 

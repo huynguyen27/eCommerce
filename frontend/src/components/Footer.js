@@ -121,7 +121,7 @@ const Footer = () => {
                         type="text"
                         id="formWhite"
                         className="rounded-0 form-control form-outline text-white"
-                        placeholder="SIGN UP FOR EMAILS"
+                        placeholder="INSERT YOUR EMAIL"
                         aria-label="Your Email Address"
                         aria-describedby="basic-addon2"
                         value={email}
@@ -139,7 +139,7 @@ const Footer = () => {
           </div>
 
         </div>
-        <div id="copyright_footer" className="py-4 text-white text-center"> Copyright © 2023 THTrue Milk. All Rights Reserved </div>
+        <div id="copyright_footer" className="py-4 text-white text-center"> © ONLINE STORE. All Rights Reserved. </div>
 
       </footer >
     </>
